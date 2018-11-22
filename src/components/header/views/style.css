@@ -1,6 +1,6 @@
 .header.home-header {
-  height: 36px;
-  line-height: 36px;
+  height: 44px;
+  line-height: 44px;
   background: #fff;
   display: flex;
   justify-content: space-between;
@@ -10,8 +10,8 @@
 
 .header {
   width: 100%;
-  height: 46px;
-  line-height: 46px;
+  height: 44px;
+  line-height: 44px;
   background: #ff8585;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .home-header .header-text {
-  font-size: 16px;
+  font-size: 14px;
   color: #919191;
   padding-right: 15px;
 }
