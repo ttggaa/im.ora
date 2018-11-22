@@ -1,0 +1,16 @@
+body {
+  font-family: "Microsoft YaHei";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-indent {
+  text-indent: 28px;
+}
