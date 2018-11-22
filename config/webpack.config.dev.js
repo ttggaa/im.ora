@@ -25,7 +25,7 @@ const env = getClientEnvironment(publicUrl);
 const htmlWebpackPluginOptions = {
   inject: true,
   chunks: ['index'],
-  title: '首页 | 小鱼情感',
+  title: '首页 | 橘子情感',
   template: paths.appHtml
 };
 
@@ -61,71 +61,26 @@ module.exports = {
       // initialization, it doesn't blow up the WebpackDevServer client, and
       // changing JS code would still trigger a refresh.
     ],
-    // about: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/about.js'
-    // ],
-    // topics: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/topics.js'
-    // ],
-    page01: [  // 小鱼简介(关于我们)
+    page01: [  // 挽回爱情
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page01.js'
     ],
-    page02: [  // 服务范围(挽爱计划)
+    page02: [  // 挽救婚姻
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page02.js'
     ],
-    page03: [  // 权威团队(权威专家)
+    page03: [  // 定制爱情
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page03.js'
     ],
-    page04: [  // 成功案例
+    page04: [  // 恋商提高
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page04.js'
     ],
-    classify01: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify01.js'
-    ],
-    classify02: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify02.js'
-    ],
-    // classify03: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify03.js'
-    // ],
-    classify04: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify04.js'
-    ],
-    // classify05: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify05.js'
-    // ],
-    // classify06: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify06.js'
-    // ],
-    // classify07: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify07.js'
-    // ],
 
     // articles' entry bellow
     // a1_1: [
@@ -303,11 +258,11 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/articles/a7/a7_5.js'
     // ],
-    help: [  // 免费咨询
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/help.js'
-    ]
+    // help: [  // 免费咨询
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/help.js'
+    // ]
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -502,54 +457,54 @@ module.exports = {
     //   title: '话题',
     //   filename: 'topics/index.html'
     // }),
-    new HtmlWebpackPlugin({  // 小鱼简介(关于我们)
+    new HtmlWebpackPlugin({  // 挽回爱情
       ...htmlWebpackPluginOptions,
       chunks: ['page01'],
       title: 'Page01',
       filename: 'page01/index.html'
     }),
-    new HtmlWebpackPlugin({  // 服务范围(挽爱计划)
+    new HtmlWebpackPlugin({  // 挽救婚姻
       ...htmlWebpackPluginOptions,
       chunks: ['page02'],
       title: '服务范围 | 小鱼情感',
       filename: 'page02/index.html'
     }),
-    new HtmlWebpackPlugin({  // 权威团队(权威专家)
+    new HtmlWebpackPlugin({  // 定制爱情
       ...htmlWebpackPluginOptions,
       chunks: ['page03'],
       title: '权威团队 | 小鱼情感',
       filename: 'page03/index.html'
     }),
-    new HtmlWebpackPlugin({  // 成功案例
+    new HtmlWebpackPlugin({  // 恋上提高
       ...htmlWebpackPluginOptions,
       chunks: ['page04'],
       title: '成功案例 | 小鱼情感',
       filename: 'page04/index.html'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify01'],
-      title: '婚姻破裂 | 小鱼情感',
-      filename: 'classify01/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify02'],
-      title: '异地恋情 | 小鱼情感',
-      filename: 'classify02/index.html'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify01'],
+    //   title: '婚姻破裂 | 小鱼情感',
+    //   filename: 'classify01/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify02'],
+    //   title: '异地恋情 | 小鱼情感',
+    //   filename: 'classify02/index.html'
+    // }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify03'],
     //   title: '性格不合 | 小鱼情感',
     //   filename: 'classify03/index.html'
     // }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify04'],
-      title: '恋人劈腿 | 小鱼情感',
-      filename: 'classify04/index.html'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify04'],
+    //   title: '恋人劈腿 | 小鱼情感',
+    //   filename: 'classify04/index.html'
+    // }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify05'],
@@ -793,12 +748,12 @@ module.exports = {
     //   filename: 'articles/a7/a7_5/index.html'
     // }),
     //
-    new HtmlWebpackPlugin({  // 免费咨询
-      ...htmlWebpackPluginOptions,
-      chunks: ['help'],
-      title: '免费咨询 | 小鱼情感',
-      filename: 'help/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 免费咨询
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['help'],
+    //   title: '免费咨询 | 小鱼情感',
+    //   filename: 'help/index.html'
+    // }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
