@@ -81,6 +81,26 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page04.js'
     ],
+    page05: [  // 服务介绍
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page05.js'
+    ],
+    page06: [  // 情感论坛
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page06.js'
+    ],
+    page07: [  // 权威专家
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page07.js'
+    ],
+    page08: [  // 关于我们
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page08.js'
+    ],
 
     // articles' entry bellow
     // a1_1: [
@@ -460,26 +480,50 @@ module.exports = {
     new HtmlWebpackPlugin({  // 挽回爱情
       ...htmlWebpackPluginOptions,
       chunks: ['page01'],
-      title: 'Page01',
+      title: '挽回爱情 | 橘子情感',
       filename: 'page01/index.html'
     }),
     new HtmlWebpackPlugin({  // 挽救婚姻
       ...htmlWebpackPluginOptions,
       chunks: ['page02'],
-      title: '服务范围 | 小鱼情感',
+      title: '挽救婚姻 | 橘子情感',
       filename: 'page02/index.html'
     }),
     new HtmlWebpackPlugin({  // 定制爱情
       ...htmlWebpackPluginOptions,
       chunks: ['page03'],
-      title: '权威团队 | 小鱼情感',
+      title: '定制爱情 | 小鱼情感',
       filename: 'page03/index.html'
     }),
-    new HtmlWebpackPlugin({  // 恋上提高
+    new HtmlWebpackPlugin({  // 恋商提高
       ...htmlWebpackPluginOptions,
       chunks: ['page04'],
-      title: '成功案例 | 小鱼情感',
+      title: '恋商提高 | 小鱼情感',
       filename: 'page04/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 服务介绍
+      ...htmlWebpackPluginOptions,
+      chunks: ['page05'],
+      title: '服务介绍 | 橘子情感',
+      filename: 'page05/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 情感论坛
+      ...htmlWebpackPluginOptions,
+      chunks: ['page06'],
+      title: '情感论坛 | 橘子情感',
+      filename: 'page06/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 权威专家
+      ...htmlWebpackPluginOptions,
+      chunks: ['page07'],
+      title: '权威专家 | 橘子情感',
+      filename: 'page07/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 关于我们
+      ...htmlWebpackPluginOptions,
+      chunks: ['page08'],
+      title: '关于我们 | 橘子情感',
+      filename: 'page08/index.html'
     }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
