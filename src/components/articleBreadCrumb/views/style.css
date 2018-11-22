@@ -1,0 +1,30 @@
+.article-breadCrumb {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+  padding-bottom: 0;
+  background: #fff;
+}
+
+.article-breadCrumb a {
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+}
+
+.article-breadCrumb a:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.article-breadCrumb i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+  background: url("./images/right.svg") no-repeat center center;
+  background-size: 100%;
+  margin-bottom: 1px;
+}

@@ -1,0 +1,122 @@
+.text-justify {text-align: justify;}
+
+.text-indent {text-indent: 32px;}
+
+.page03-bannerImage {width: 100%;}
+
+.page03-para {padding: 0 15px;}
+
+.page03-para p {
+  line-height: 26px;
+  margin: 0;
+}
+
+.page03-para p:first-child {margin: 30px 0 20px;}
+
+/* Start: section title */
+.page03-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.page03-title i {
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+}
+
+.page03-title-icon_left {
+  background: url("./images/icon_right.png") no-repeat center center;
+  background-size: 100%;
+  margin-right: 5px;
+}
+
+.page03-title-icon_right {
+  background: url("./images/icon_left.png") no-repeat center center;
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.page03-title-text {
+  color: #F6394C;
+  margin: 0;
+}
+/* End: section title */
+
+/* Start: mentor theme */
+.page03-theme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px 30px;
+}
+
+.page03-theme.page03-theme_one img,
+.page03-theme.page03-theme_two img {
+  width: 129px;
+}
+
+.page03-theme.page03-theme_one img {margin-right: 20px;}
+.page03-theme.page03-theme_two img {margin-left: 20px;}
+
+.page03-theme-content {
+  width: 60%;
+}
+
+.page03-theme-content h4,
+.page03-theme-content p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.page03-theme-content h4 {
+  color: #F6394C;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.page03-theme-content>div {padding-bottom: 3px;}
+
+.page03-theme-content>div i {
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+  background: url("./images/icon_right.png") no-repeat center center;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.page03-theme-content p {color: #616161;}
+/* End: mentor theme */
+
+/* Start: section02 */
+.page03-section02 {background: #f1f1f1;}
+
+.page03-section02-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.page03-section02-content>img {
+  width: 70px;
+  margin: 0 15px;
+  margin-right: 25px;
+}
+
+.page03-section02-content>div h4,
+.page03-section02-content>div p {
+  margin: 0;
+}
+
+.page03-section02-content>div h4 {
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.page03-section02-content>div p {color: #616161;}
+/* End: section02 */

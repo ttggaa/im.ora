@@ -1,0 +1,303 @@
+.page01-banner {width: 100%;}
+
+.page01-para {
+  padding: 0 15px;
+  text-align: justify;
+  text-indent: 32px;
+  color: #313131;
+  line-height: 26px;
+  margin: 32px 0;
+}
+
+.page01-box {
+  background: #ff8585;
+  border-radius: 5px;
+  margin: 0 15px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify: center;
+  align-items: center;
+}
+
+.page01-box-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.page01-box-images img {
+  width: 147px;
+}
+
+.page01-box-content {
+  padding-bottom: 30px;
+}
+
+.page01-box-content h3,
+.page01-box-content p {
+  color: #fff;
+}
+
+.page01-box-content p {
+ text-indent: 32px;
+ margin: 0;
+ line-height: 26px;
+ text-align: justify;
+}
+
+.page01-infos {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page01-infos>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page01-infos>div i {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.page01-infos>div:first-child i {
+  background: url("./images/infos01.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-infos>div:last-child i {
+  background: url("./images/infos02.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-infos>div span:nth-child(2) {
+  margin: 8px 0;
+}
+
+.page01-infos>div:first-child span:last-child {
+  color: #ff5252;
+  font-weight: bold;
+}
+.page01-infos>div:last-child span:last-child>span {
+  color: #fa9431;
+  font-weight: bold;
+}
+
+/* Start: 四大保障 */
+.page01-guarantee h3 {
+  font-weight: normal;
+}
+
+.page01-guarantee-content {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page01-guarantee-content-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page01-guarantee-content-group:first-child {
+  margin-bottom: 20px;
+}
+
+.page01-guarantee-content-group-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page01-guarantee-content-group-item i {
+  diaplay: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.page01-guarantee-content-group:first-child .page01-guarantee-content-group-item:first-child i {
+  background: url("./images/icon-wuwei.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:first-child .page01-guarantee-content-group-item:last-child i {
+  background: url("./images/icon-zhuanye.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:last-child .page01-guarantee-content-group-item:first-child i {
+  background: url("./images/icon-siren.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:last-child .page01-guarantee-content-group-item:last-child i {
+  background: url("./images/icon-yonghu.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group-item p {
+  margin: 0;
+}
+
+.page01-guarantee-content-group-item p {
+  color: #616161;
+  font-size: 13px;
+}
+.page01-guarantee-content-group-item p:nth-child(2) {
+  font-size: 16px;
+  color: #313131;
+  padding-bottom: 5px;
+}
+/* End: 四大保障 */
+
+/* Start: 小鱼环境 */
+.page01-environment h3 {font-weight: normal;}
+.page01-environment-image {padding: 0 15px;}
+.page01-environment img {width: 100%;}
+/* End: 小鱼环境 */
+
+/* Start: 服务步骤 */
+.page01-service h3 {font-weight: normal;}
+
+.page01-service-content {padding: 0 15px;}
+
+.page01-service-content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f5fa;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.page01-service-content-item:last-child {
+  margin-bottom: 0;
+}
+
+.page01-service-content-item p {
+  margin: 0;
+}
+
+.page01-service-content-item p:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page01-service-content-item p span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 26px;
+  border-radius: 50%;
+  background: #d44c52;
+  color: #fff;
+  margin-right: 5px;
+}
+/* End: 服务步骤 */
+
+/* Start: 合作媒体 */
+.page01-cooperation {margin-bottom: 30px;}
+
+.page01-cooperation h3 {font-weight: normal;}
+
+.page01-cooperation-content span {
+  display: inline-block;
+  width: 54px;
+  height: 18px;
+}
+
+.page01-cooperation-content-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page01-cooperation-content-group:last-child {
+  margin-bottom: 0;
+}
+
+.page01-cooperation-content-group span {
+  margin-right: 30px;
+}
+
+.page01-cooperation-content-group span:last-child {
+  margin-right: 0;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(1) {
+  background: url("./images/cooperation_icon01.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(2) {
+  background: url("./images/cooperation_icon02.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(3) {
+  background: url("./images/cooperation_icon03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(4) {
+  background: url("./images/cooperation_icon04.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(1) {
+  background: url("./images/cooperation_icon05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(2) {
+  background: url("./images/cooperation_icon06.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(3) {
+  background: url("./images/cooperation_icon07.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(4) {
+  background: url("./images/cooperation_icon08.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(1) {
+  background: url("./images/cooperation_icon09.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(2) {
+  background: url("./images/cooperation_icon10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(3) {
+  background: url("./images/cooperation_icon11.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(4) {
+  background: url("./images/cooperation_icon12.png") no-repeat center center;
+  background-size: 100%;
+}
+
+/* End: 合作媒体 */
