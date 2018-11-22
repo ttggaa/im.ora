@@ -1,0 +1,31 @@
+.index-intro {
+  font-size: 0;
+  position: relative;
+}
+
+.index-intro h3 {
+  font-size: 34px;
+  padding: 25px 15px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #d66f70;
+}
+
+.index-intro img {
+  width: 100%;
+}
+
+.index-intro p {
+  font-size: 14px;
+  color: #313131;
+  position: absolute;
+  top: 220px;
+  padding: 0 25px;
+}
+
+.index-intro p:first-child {
+}
+
+.index-intro p:last-child {
+  top: 365px;
+}
