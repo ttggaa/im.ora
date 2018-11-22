@@ -32,54 +32,39 @@
 
 /* @TODO 小图标 */
 .classifies a:nth-child(1) i {
-  background: url("./images/icon08.png") no-repeat center center;
+  background: url("./images/icon01.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(2) i {
-  background: url("./images/icon09.png") no-repeat center center;
+  background: url("./images/icon02.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(3) i {
-  background: url("./images/icon10.png") no-repeat center center;
+  background: url("./images/icon03.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(4) i {
-  background: url("./images/icon01.png") no-repeat center center;
+  background: url("./images/icon04.png") no-repeat center center;
   background-size: 100%;
 }
 
 .classifies a:nth-child(5) i {
-  background: url("./images/icon02.png") no-repeat center center;
+  background: url("./images/icon05.png") no-repeat center center;
   background-size: 100%;
 }
 
 .classifies a:nth-child(6) i {
-  background: url("./images/icon03.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.classifies a:nth-child(7) i {
-  background: url("./images/icon13.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.classifies a:nth-child(8) i {
-  background: url("./images/icon12.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.classifies a:nth-child(9) i {
   background: url("./images/icon06.png") no-repeat center center;
   background-size: 100%;
 }
 
-.classifies a:nth-child(10) i {
+.classifies a:nth-child(7) i {
   background: url("./images/icon07.png") no-repeat center center;
   background-size: 100%;
 }
 
-.classifies a:nth-child(11) i {
-  background: url("./images/icon11.png") no-repeat center center;
+.classifies a:nth-child(8) i {
+  background: url("./images/icon08.png") no-repeat center center;
   background-size: 100%;
 }
 
