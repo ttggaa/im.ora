@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 const Header = ({href, title}) => (
   <a className="section-header-title" href={href}>
-    <i></i>
     <span>{title}</span>
   </a>
 );
@@ -44,6 +43,7 @@ class HeaderContainer extends React.Component {
     );
   }
 }
+
 HeaderContainer.propTypes = {
   headerState: PropTypes.object.isRequired
 };
