@@ -60,6 +60,10 @@ section {
 
 .section-list-item {margin: 0;}
 
+.section-list-item-text h3 {
+  padding-bottom: 10px;
+}
+
 .section-list-item-image,
 .section-list-item-image-mask,
 .section-list-item-image img {
