@@ -22,7 +22,7 @@ class Page01 extends React.Component {
   render() {
     return (
       <div className="page01">
-	<Header home={false} title="小鱼简介" />
+	<Header home={false} title="挽回爱情" />
 	<img className="page01-banner" src={bannerImage} alt="关于我们" title="关于我们" />
 	<p className="page01-para">小鱼情感，是一家专注于情感挽回、婚姻修复、爱情保险等服务的大型互联网教育公司，汇聚了国内知名两性情感咨询师、婚恋家庭咨询师、资深情感挽回师、心理学专家等，创立之初便迅速崛起于中国两性情感资讯市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者树立了行业标杆。</p>
 	<div className="page01-box">
