@@ -174,7 +174,7 @@ const classifies = [
     type: 'page',
     title: '挽回爱情',
     href: 'page01/',
-    image: images.articleImages.articleImage076,
+    image: images.articleImages.articleImage001,
     h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
     des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
     nav: [
@@ -200,7 +200,7 @@ const classifies = [
     type: 'page',
     title: '挽救婚姻',
     href: 'page02/',
-    image: images.articleImages.articleImage078,
+    image: images.articleImages.articleImage002,
     h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
     des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
     nav: [
@@ -226,7 +226,7 @@ const classifies = [
     type: 'page',
     title: '定制爱情',
     href: 'page03/',
-    image: images.articleImages.articleImage077,
+    image: images.articleImages.articleImage003,
     h3: '九大维度，全面分析指导你的具体情感问题',
     des: '你在感情中遇到的每一个问题，都会被导师团队预估，并且解决',
     nav: [
@@ -252,7 +252,7 @@ const classifies = [
     type: 'page',
     title: '恋商提高',
     href: 'page04/',
-    image: images.articleImages.articleImage076,
+    image: images.articleImages.articleImage004,
     h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
     des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
     nav: [
@@ -278,7 +278,7 @@ const classifies = [
     type: 'page',
     title: '服务介绍',
     href: 'page05/',
-    image: images.articleImages.articleImage079,
+    image: images.articleImages.articleImage005,
     h3: '立即预约情感导师一对一沟通',
     des: '留下您的情感问题，我们将尽快联系您哦'
   },
@@ -286,7 +286,7 @@ const classifies = [
     type: 'page',
     title: '情感论坛',
     href: 'page06/',
-    image: images.articleImages.articleImage079,
+    image: images.articleImages.articleImage006,
     h3: '立即预约情感导师一对一沟通',
     des: '留下您的情感问题，我们将尽快联系您哦'
   },
@@ -294,7 +294,7 @@ const classifies = [
     type: 'page',
     title: '权威专家',
     href: 'page07/',
-    image: images.articleImages.articleImage079,
+    image: images.articleImages.articleImage007,
     h3: '立即预约情感导师一对一沟通',
     des: '留下您的情感问题，我们将尽快联系您哦'
   },
@@ -302,7 +302,7 @@ const classifies = [
     type: 'page',
     title: '关于我们',
     href: 'page08/',
-    image: images.articleImages.articleImage079,
+    image: images.articleImages.articleImage008,
     h3: '立即预约情感导师一对一沟通',
     des: '留下您的情感问题，我们将尽快联系您哦'
   }
