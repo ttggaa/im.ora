@@ -1,5 +1,6 @@
 .page01-banner {width: 100%;}
 
+/* 模块一: 挽回失败原因 */
 .page01-sec01 h1 {  /* 标题 */
   padding: 25px 0 15px 15px;
   font-size: 17px;
@@ -53,4 +54,80 @@
 .page01-sec01-content-item span {
   font-size: 15px;
   color: #313131;
+}
+
+/* 模块二: 擅长挽回的爱情类型 */
+.page01-sec02 h1 {  /* 标题 */
+  padding: 25px 0 15px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #313131;
+}
+
+.page01-sec02-content {
+  background: #ebb5b4;
+  padding: 20px 15px;
+}
+
+.page01-sec02-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page01-sec02-group:first-child {
+  padding-bottom: 15px;
+}
+
+.page01-sec02-group-item {
+  min-width: 165px;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.page01-sec02-group-item i {
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.page01-sec02-group:first-child .page01-sec02-group-item:first-child i {
+  width: 26.5px;
+  height: 26.5px;
+  background: url("./images/sec2-icon1.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-sec02-group:first-child .page01-sec02-group-item:last-child i {
+  width: 24.5px;
+  height: 28.5px;
+  background: url("./images/sec2-icon2.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-sec02-group:last-child .page01-sec02-group-item:first-child i {
+  width: 28.5px;
+  height: 26px;
+  background: url("./images/sec2-icon3.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-sec02-group:last-child .page01-sec02-group-item:last-child i {
+  width: 27.5px;
+  height: 26px;
+  background: url("./images/sec2-icon4.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-sec02-group-item span:nth-child(3) {
+  font-size: 16px;
+  color: #616161;
+  padding: 10px 0;
+}
+
+.page01-sec02-group-item span:last-child {
+  padding-bottom: 15px;
 }
