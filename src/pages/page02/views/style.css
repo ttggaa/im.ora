@@ -173,3 +173,52 @@
 .page02-sec03-content .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #ebb3b3;
 }
+
+/* 橘子情感优势 */
+.page02-sec03-content {
+  padding: 0 15px;
+}
+
+.page02-sec03-content .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.page02-sec03-content .title i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #d66f6f;
+  transform: rotate(45deg);
+  margin-right: 10px;
+}
+
+.page02-sec03-content .title h3 {
+  color: #d66f6f;
+  font-size: 17px;
+}
+
+.page02-sec03-content .inner {
+  background: #f4f4f4;
+  padding: 15px;
+  padding-right: 10px;
+  padding-left: 20px;
+  border-radius: 6px;
+}
+
+.page02-sec03-content .inner p {
+  font-size: 15px;
+  color: #616161;
+  padding-bottom: 15px;
+}
+
+.page02-sec03-content .inner .img {
+  font-size: 0;
+}
+
+.page02-sec03-content .inner .img img {
+  width: 100%;
+}
