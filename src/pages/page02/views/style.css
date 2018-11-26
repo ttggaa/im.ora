@@ -222,3 +222,29 @@
 .page02-sec03-content .inner .img img {
   width: 100%;
 }
+
+/* 给您的保障 */
+.page02-sec05-content {
+  padding: 0 15px;
+  padding-bottom: 35px;
+}
+
+.page02-sec05-content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 0;
+}
+
+.page02-sec05-content .item img {
+  width: 76px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.page02-sec05-content .item span {
+  font-size: 15px;
+  color: #616161;
+  line-height: 26px;
+}
