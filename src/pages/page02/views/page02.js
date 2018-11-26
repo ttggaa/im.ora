@@ -10,6 +10,7 @@ import Sec06 from './sec06';
 
 import toPc from '../../../utilities/toPc';
 
+import '../../style.css';
 import './style.css';
 
 import bannerImage from './images/banner.png';
