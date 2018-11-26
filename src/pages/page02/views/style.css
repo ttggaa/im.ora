@@ -10,8 +10,7 @@
   border-bottom: 1px solid #e9e9e9;
 }
 
-.page02-sec01-content {}
-
+/* 挽爱计划私人订制服务 */
 .page02-sec01-content .para {  /* 挽爱计划私人订制服务 - 段落 */
   margin: 25px 15px;
   background: #f4f4f4;
@@ -97,4 +96,27 @@
   color: #616161;
   font-size: 15px;
   padding: 10px 0;
+}
+
+/* 当今社会情感现状 */
+.page02-sec02-content {
+  margin: 25px 15px;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+.page02-sec02-content p {
+  font-size: 15px;
+  color: #616161;
+  padding: 15px;
+}
+
+.page02-sec02-content .img {
+  padding: 15px 30px;
+  font-size: 0;
+}
+
+.page02-sec02-content img {
+  width: 100%;
+  margin-bottom: 15px;
 }
