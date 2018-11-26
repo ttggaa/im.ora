@@ -19,7 +19,7 @@ class Content extends Component {
 class Sec02 extends Component {
   render() {
     return (
-      <div className="page02-sec01">
+      <div className="page02-sec02">
 	<Title title="当今社会情感现状" />
 	<Content />
       </div>

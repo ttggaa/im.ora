@@ -10,6 +10,7 @@ import Sec06 from './sec06';
 
 import toPc from '../../../utilities/toPc';
 
+import 'swiper/dist/css/swiper.min.css';
 import '../../style.css';
 import './style.css';
 
