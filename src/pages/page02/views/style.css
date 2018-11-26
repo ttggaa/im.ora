@@ -120,3 +120,56 @@
   width: 100%;
   margin-bottom: 15px;
 }
+
+/* “挽爱计划”九维帮助服务体系 */
+.page02-sec03-content .para {
+  margin: 25px 15px;
+  background: #ebb5b4;
+  border-radius: 6px;
+}
+
+.page02-sec03-content .para p {
+  padding: 15px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.page02-sec03-content .swiper-container {
+  padding-bottom: 45px;
+}
+
+.page02-sec03-content .swiper-slide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page02-sec03-content .swiper-slide .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page02-sec03-content .swiper-slide .item img {
+  width: 60px;
+  height: 60px;
+  font-size: 0;
+  margin-bottom: 15px;
+}
+
+.page02-sec03-content .swiper-slide .item span {
+  display: inline-block;
+  line-height: 26px;
+  color: #313131;
+}
+
+.page02-sec03-content .swiper-pagination-bullet{
+  width: 25px;
+  height: 5px;
+  border-radius: 5px;
+  background: #919191;
+  transition: all .3s;
+}
+
+.page02-sec03-content .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #ebb3b3;
+}
