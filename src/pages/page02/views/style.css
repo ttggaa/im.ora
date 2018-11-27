@@ -248,3 +248,51 @@
   color: #616161;
   line-height: 26px;
 }
+
+/* 挽回爱情服务流程 */
+.page02-sec06-content {
+  padding-bottom: 35px;
+}
+
+.page02-sec06-content .swiper-container {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.page02-sec06-content .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page02-sec06-content .swiper-slide span {
+  display: inline-block;
+}
+
+.page02-sec06-content .swiper-slide span.number {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background: #ebb5b4;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.page02-sec06-content .swiper-slide:nth-child(2) span.number {
+  background: #67c7e8;
+}
+
+.page02-sec06-content .swiper-slide:nth-child(3) span.number {
+  background: #ffd15c;
+}
+
+.page02-sec06-content .swiper-slide:nth-child(5) span.number {
+  background: #67c7e8;
+}
+
+.page02-sec06-content .swiper-slide:nth-child(6) span.number {
+  background: #ffd15c;
+}
