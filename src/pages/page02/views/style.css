@@ -296,3 +296,7 @@
 .page02-sec06-content .swiper-slide:nth-child(6) span.number {
   background: #ffd15c;
 }
+
+.page02-sec06-content .swiper-scrollbar-drag {
+  background: rgba(0, 0, 0, .3);
+}
