@@ -8,6 +8,14 @@ import './style.css';
 
 import bannerImage from './images/banner.png';
 
+class Content extends React.Component {
+  render() {
+    return (
+      <div className="page03-content"></div>
+    );
+  }
+}
+
 class Page03 extends React.Component {
   componentWillMount() {
     toPc();
