@@ -16,7 +16,7 @@ class Page03 extends React.Component {
   render() {
     return (
       <div className="page03">
-	<Header home={false} title="权威团队"/>
+	<Header home={false} title="定制爱情" />
 	<img className="page03-bannerImage" src={bannerImage} alt="权威专家" />
 	<Footer />
       </div>

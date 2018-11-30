@@ -1,100 +1,160 @@
-.page04 section {
-  background: #fff;
-  padding: 30px 0;
-}
-
-.page04 section:nth-child(odd) {  /* 偶数 */
-  background: #EE8081;
-}
-/* Start: 模块标题 */
-.page04-title {
-  margin: 0 15px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.page04-title-text {
-  display: inline-block;
-  padding: 4px 4px;
-  background: #EE8081;
-  position: relative;
-  z-index: 1;
-  font-size: 16px;
-  border-left: 3px solid #fff;
-  border-right: 3px solid #fff;
-  /*color: #e6e6e6;*/
-  color: #fff;
-}
-
-.page04-title-line {
-  display: inline-block;
+.page04-banner {  /* Banner 图 */
   width: 100%;
-  height: 1px;
-  background: #EE8081;
-  position: absolute;
-  top: 15px;
-  left: 0;
 }
 
-.page04 section:nth-child(odd) .page04-title-text {
-  background: #fff;
-  color: #EE8081;
-  border-left: 3px solid #EE8081;
-  border-right: 3px solid #EE8081;
+.page04 .normal-para {
+  font-size: 15px;
+  color: #313131;
+  padding: 0 15px;
+  line-height: 26px;
 }
 
-.page04 section:nth-child(odd) .page04-title-line {
-  background: #fff;
+.page04 .message {  /* 橘子寄语 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-/* End: 模块标题 */
 
-/* Start: 用户头像 */
-.page04-avatar {
-  font-size: 0;
+.page04 .message .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
 }
 
-.page04-avatar img {
-  width: 44px;
+.page04 .message .icon {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #eeb5b4;
+}
+
+.page04 .message .icon:first-child {
   margin-right: 10px;
 }
 
-.page04-avatar-text {
-  font-size: 14px;
+.page04 .message .icon:last-child {
+  margin-left: 10px;
 }
-/* End: 用户头像 */
 
-.page04 section>p {
+.page04 .message h2 {
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #fff;
+  background: #ebb5b4;
+}
+
+.page04 .gray-box-para {  /* 灰框段落 */
   margin: 0 15px;
-  padding: 15px 10px;
-  border: 1px solid #EE8081;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px #FF8081;
-  text-align: justify;
-  text-indent: 34px;
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #616161l;
+  background: #f4f4f4;
+  border-radius: 6px;
+  line-height: 26px;
 }
 
-.page04 section>p span {
-  display: block;
-  text-indent: 34px;
+.page04 .gray-box-para span {
+  display: inline-block;
 }
 
-.page04 section:nth-child(odd)>p {
-  box-shadow: 2px 2px 5px #fd3232;
-  background: #fff;
-}
-
-.page04 section>.page04-image {
+.page04 .red-box-para {  /* 红框段落 */
   margin: 0 15px;
-  margin-top: 30px;
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #fff;
+  background: #ebb5b4;
+  border-radius: 6px;
+  line-height: 26px;
 }
 
-.page04 section>.page04-image img {
-  width: 100%;
+.page04 .icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
 }
+
+.page04 .icons .icons-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page04 .icons .icons-group img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.page04 .icons .icons-group span {
+  font-size: 13px;
+  color: #313131;
+  line-height: 22px;
+}
+
+.page04 .title-h3 {
+  font-size: 17px;
+  color: #313131;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.page04 .title-h4 {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.page04 .title-h4 i {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  background: #d66f70;
+}
+
+.page04 .title-h4 span {
+  padding-left: 10px;
+  color: rgb(214, 111, 112);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.page04 .gray-box-para-take-img {
+  margin: 0 15px;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+.page04 .gray-box-para-take-img .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0;
+}
+
+.page04 .gray-box-para-take-img .img img {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.page04 .gray-box-para-take-img .img p {
+  font-size: 15px;
+  color: rgb(214, 111, 112);
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+.page04 .gray-box-para-take-img p {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #616161;
+}
+
