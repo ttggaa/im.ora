@@ -69,14 +69,42 @@
 /* 错误做法导致后果 */
 .page03-sec02-group {
   padding: 0 15px;
+  padding-top: 5px;
   display: flex;
   justify-content: space-between;
+}
+
+.page03-sec02-group:last-child {
+  padding-top: 0;
+  padding-bottom: 10px;
 }
 
 .page03-sec02-group-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.page03-sec02-group-item h2 {
+  font-size: 16px;
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  line-height: 29px;
+  background: #d5706f;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.page03-sec02-group-item p {
+  width: 145px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: #616161;
 }
 
 /* 成功案例 */

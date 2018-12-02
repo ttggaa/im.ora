@@ -74,7 +74,7 @@ const sec01Items = [  // 模块一数据
 	'像两条平行线，永远没有交集'
       ]
     }
-  ],
+  ]
 ];
 
 const sec02Items = [  // 模块二数据
@@ -201,8 +201,8 @@ const Sec02 = () => (  // 模块二：错误做法导致后果
 	      item.map((innerItem, innerIndex) => {
 		return (
 		  <div className="page03-sec02-group-item" key={innerIndex}>
-		    <h2>{innerItem.title}</h2>
-		    <p>{innerItem.para}</p>
+		    <h2 className="text-center">{innerItem.title}</h2>
+		    <p className="text-justify">{innerItem.para}</p>
 		  </div>
 		);
 	      })
