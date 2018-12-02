@@ -25,56 +25,56 @@ import articleImg05 from './images/image-5.png';
 const sec01Items = [  // 模块一数据
   [  // 第一页轮播图数据
     {
-      icon: '',
-      title: '',
+      icon: icon01,
+      title: '有了目标',
       des: [
-	'',
-	''
+	'有了心仪已久的目标，整日关注',
+	'却畏手畏脚，不知如何行动'
       ]
     },
     {
-      icon: '',
-      title: '',
+      icon: icon02,
+      title: '不会表达',
       des: [
-	'',
-	''
+	'不懂得如何表达自己的心意',
+	'担心贸然行动，会让关系闹僵'
       ]
     },
     {
-      icon: '',
-      title: '',
+      icon: icon03,
+      title: '没有机会',
       des: [
-	'',
-	''
+	'没有机会和对方接触，感觉和TA',
+	'像两条平行线，永远没有交集'
       ]
     }
   ],
   [  // 第二页轮播图数据
     {
-      icon: '',
-      title: '',
+      icon: icon04,
+      title: '有了目标',
       des: [
-	'',
-	''
+	'有了心仪已久的目标，整日关注',
+	'却畏手畏脚，不知如何行动'
       ]
     },
     {
-      icon: '',
-      title: '',
+      icon: icon05,
+      title: '不会表达',
       des: [
-	'',
-	''
+	'不懂得如何表达自己的心意',
+	'担心贸然行动，会让关系闹僵'
       ]
     },
     {
-      icon: '',
-      title: '',
+      icon: icon06,
+      title: '没有机会',
       des: [
-	'',
-	''
+	'没有机会和对方接触，感觉和TA',
+	'像两条平行线，永远没有交集'
       ]
     }
-  ]
+  ],
 ];
 
 const sec02Items = [  // 模块二数据
@@ -148,7 +148,19 @@ class Sec01 extends React.Component {  // 模块一：单身原因
 			item.map((innerItem, innerIndex) => {
 			  return (
 			    <div className="item" key={innerIndex}>
-			      item
+			      <div className="item-icon">
+			        <img src={innerItem.icon} alt={innerItem.title} />
+			      </div>
+			      <div className="item-text">
+			        <h3 className="text-center">{innerItem.title}</h3>
+				{
+				  innerItem.des.map((desItem, desIndex) => {
+				    return (
+				      <p>{desItem}</p>
+				    );
+				  })
+				}
+			      </div>
 			    </div>
 			  );
 			})
