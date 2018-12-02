@@ -156,7 +156,7 @@ class Sec01 extends React.Component {  // 模块一：单身原因
 				{
 				  innerItem.des.map((desItem, desIndex) => {
 				    return (
-				      <p>{desItem}</p>
+				      <p key={desIndex}>{desItem}</p>
 				    );
 				  })
 				}
@@ -223,10 +223,12 @@ const Sec03 = () => (  // 模块三：成功案例
 	  return (
 	    <div className="item" key={index}>
 	      <div className="item-text">
-	        <p>{item.title}</p>
+	        <h3>{item.title}</h3>
 	        <p>{item.des}</p>
 	      </div>
-	      <img src={item.img} alt="文章配图" />
+	      <div className="item-img">
+		<img src={item.img} alt="文章配图" />
+	      </div>
 	    </div>
 	  );
 	})
