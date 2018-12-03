@@ -35,9 +35,9 @@
 }
 
 .page03-sec01 .item-text h3 {
-  width: 80px;
+  display: inline-block;
   height: 25px;
-  padding: 3px 5px;
+  padding: 3px 8px;
   margin-top: 4px;
   line-height: 29px;
   background: #f4f4f4;
