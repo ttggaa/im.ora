@@ -14,7 +14,7 @@ const slides = [
 class Content extends Component {
   render() {
     return (
-      <div className="page02-sec06-content">
+      <div className="page05-sec06-content">
 	<div className="swiper-container" ref="swiper">
 	  <div className="swiper-wrapper">
 	    {
@@ -53,7 +53,7 @@ class Content extends Component {
 class Sec06 extends Component {
   render() {
     return (
-      <div className="page02-sec06">
+      <div className="page05-sec06">
 	<Title title="挽回爱情服务流程" />
 	<Content />
       </div>

@@ -15,7 +15,7 @@ import icon09 from './images/sec03-icon09.png';
 class Content extends Component {
   render() {
     return(
-      <div className="page02-sec03-content">
+      <div className="page05-sec03-content">
 	<div className="para">
 	  <p className="text-justify text-indent">你的专属导师团队，将从九大维度，全面分析指导您的具体情感问题。你在情感中会遇到的每个问题，都会被导师团队预估，并且解决。</p>
 	</div>
