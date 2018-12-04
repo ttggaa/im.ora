@@ -72,3 +72,66 @@
 .page02-sec02-content .img img {
   width: 100%;
 }
+
+/* 模块三: 成功案例 */
+.page02-sec03 {
+  padding-bottom: 30px;
+}
+
+.page02-sec03 h1 {  /* 标题 */
+  padding: 35px 0 15px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #313131;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.page02-sec03-content {
+  padding: 25px 0;
+}
+
+.page02-sec03-content-item {
+  padding: 0 15px 20px;
+  display: flex;
+}
+
+.page02-sec03-content-item:first-child {
+  padding-top: 0;
+}
+
+.page02-sec03-content-item:last-child {
+  padding-bottom: 0;
+}
+
+.page02-sec03-content-item-text {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page02-sec03-content-item-text h3,
+.page02-sec03-content-item-text p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 17px;
+  color: #313131;
+}
+
+.page02-sec03-content-item-text p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #919191;
+}
+
+.page02-sec03-content-item-img {
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+.page02-sec03-content-item-img img {
+  width: 100%;
+}

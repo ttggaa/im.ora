@@ -24,7 +24,13 @@ import img03 from './images/image-3.png';
 import img04 from './images/image-4.png';
 import img05 from './images/image-5.png';
 
-const sec01Items = [
+import anli01 from './images/anli-1.png';
+import anli02 from './images/anli-2.png';
+import anli03 from './images/anli-3.png';
+import anli04 from './images/anli-4.png';
+import anli05 from './images/anli-5.png';
+
+const sec01Items = [  // 模块一数据: 擅长挽回的婚姻类型
   [
     {
       icon: icon01,
@@ -57,7 +63,7 @@ const sec01Items = [
   ]
 ];
 
-const sec02Items = [
+const sec02Items = [  // 模块二数据: 婚姻危机出现的原因
   [
     {
       title: '两地分居，信任缺失',
@@ -90,7 +96,27 @@ const sec02Items = [
   ]
 ];
 
-const sec03Items = [];
+const articles = [{  // 模块三数据: 成功案例
+  title: '文章标题',
+  des: '文章描述',
+  image: anli01
+}, {
+  title: '文章标题',
+  des: '文章描述',
+  image: anli02
+}, {
+  title: '文章标题',
+  des: '文章描述',
+  image: anli03
+}, {
+  title: '文章标题',
+  des: '文章描述',
+  image: anli04
+}, {
+  title: '文章标题',
+  des: '文章描述',
+  image: anli05
+}];
 
 const Sec01 = () => (  // 模块一: 擅长挽回的婚姻类型
   <div className="page02-sec01">
@@ -131,7 +157,7 @@ class Sec02 extends React.Component {  // 模块二: 婚姻危机出现的原因
 	      {
 		sec02Items.map((item, index) => {
 		  return (
-		    <div className="swiper-slide">
+		    <div className="swiper-slide" key={index}>
 		      <div className="title text-center">
 		        <i></i>
 			<span>{item[0].title}</span>
@@ -167,6 +193,23 @@ class Sec02 extends React.Component {  // 模块二: 婚姻危机出现的原因
 const Sec03 = () => (  // 模块三: 成功案例
   <div className="page02-sec03">
     <Title title="成功案例" />
+    <div className="page02-sec03-content">
+      {
+      articles.map((item, index) => {
+      return (
+      <div className="page02-sec03-content-item" key={index}>
+	<div className="page02-sec03-content-item-text">
+	  <h3 className="text-justify">{item.title}</h3>
+	  <p className="text-justify">{item.des}</p>
+	</div>
+	<div className="page02-sec03-content-item-img">
+	  <img src={item.image} alt="" />
+	</div>
+      </div>
+      );
+      })
+      }
+    </div>
   </div>
 );
 
