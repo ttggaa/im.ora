@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .page02-sec01-content .group-item .img {
@@ -38,8 +38,9 @@
 }
 
 .page02-sec01-content .group-item span {
-  padding-top: 5px;
+  padding-top: 8px;
   color: #313131;
+  font-size: 15px;
 }
 
 /* 模块二: 婚姻危机出现的原因 */
