@@ -1,7 +1,3 @@
-.page02-banner {  /* Banner 图 */
-  width: 100%;
-}
-
 .page02-title {  /* 模块标题 */
   padding: 25px 0 15px 15px;
   font-size: 17px;
@@ -10,293 +6,132 @@
   border-bottom: 1px solid #e9e9e9;
 }
 
-/* 挽爱计划私人订制服务 */
-.page02-sec01-content .para {  /* 挽爱计划私人订制服务 - 段落 */
-  margin: 25px 15px;
-  background: #f4f4f4;
-  border-radius: 6px;
-}
-
-.page02-sec01-content .para p {
-  padding: 15px;
-  font-size: 15px;
-  color: #616161;
-  text-indent: 30px;
-}
-
-.page02-sec01-content .buttons {  /* 挽爱计划私人订制服务 - 按钮 */
-  margin: 0 15px;
+/* 模块一: 擅长挽回的婚姻类型 */
+.page02-sec01-content {
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
 }
 
-.page02-sec01-content .buttons-group {
+.page02-sec01-content .group {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.page02-sec01-content .buttons-item {
+.page02-sec01-content .group-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.page02-sec01-content .buttons-group .buttons-item:first-child {
-  padding-bottom: 15px;
-}
-
-.page02-sec01-content .buttons-item i {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
-.page02-sec01-content .buttons-group:nth-child(1) .buttons-item:first-child i {
-  background: url("./images/sec01-icon01.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(1) .buttons-item:last-child i {
-  background: url("./images/sec01-icon05.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(2) .buttons-item:first-child i {
-  background: url("./images/sec01-icon02.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(2) .buttons-item:last-child i {
-  background: url("./images/sec01-icon06.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(3) .buttons-item:first-child i {
-  background: url("./images/sec01-icon03.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(3) .buttons-item:last-child i {
-  background: url("./images/sec01-icon07.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(4) .buttons-item:first-child i {
-  background: url("./images/sec01-icon04.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-group:nth-child(4) .buttons-item:last-child i {
-  background: url("./images/sec01-icon08.png") no-repeat center center;
-  background-size: 100%;
-}
-
-.page02-sec01-content .buttons-item span {
-  color: #616161;
-  font-size: 15px;
-  padding: 10px 0;
-}
-
-/* 当今社会情感现状 */
-.page02-sec02-content {
-  margin: 25px 15px;
-  background: #f4f4f4;
-  border-radius: 6px;
-}
-
-.page02-sec02-content p {
-  font-size: 15px;
-  color: #616161;
-  padding: 15px;
-}
-
-.page02-sec02-content .img {
-  padding: 15px 30px;
+.page02-sec01-content .group-item .img {
+  width: 40px;
+  height: 40px;
   font-size: 0;
 }
 
-.page02-sec02-content img {
+.page02-sec01-content .group-item .img img {
   width: 100%;
-  margin-bottom: 15px;
 }
 
-/* “挽爱计划”九维帮助服务体系 */
-.page02-sec03-content .para {
-  margin: 25px 15px;
-  background: #ebb5b4;
-  border-radius: 6px;
+/* 模块二: 婚姻危机出现的原因 */
+.page02-sec02-content .swiper-container {
+  padding-bottom: 30px;
 }
 
-.page02-sec03-content .para p {
-  padding: 15px;
-  font-size: 15px;
-  color: #fff;
-}
-
-.page02-sec03-content .swiper-container {
-  padding-bottom: 45px;
-}
-
-.page02-sec03-content .swiper-slide {
+.page02-sec02-content .title {
   display: flex;
-  justify-content: space-around;
-}
-
-.page02-sec03-content .swiper-slide .item {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.page02-sec03-content .swiper-slide .item img {
-  width: 60px;
-  height: 60px;
-  font-size: 0;
-  margin-bottom: 15px;
-}
-
-.page02-sec03-content .swiper-slide .item span {
-  display: inline-block;
-  line-height: 26px;
-  color: #313131;
-}
-
-.page02-sec03-content .swiper-pagination-bullet{
-  width: 25px;
-  height: 5px;
-  border-radius: 5px;
-  background: #919191;
-  transition: all .3s;
-}
-
-.page02-sec03-content .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #ebb3b3;
-}
-
-/* 橘子情感优势 */
-.page02-sec03-content {
-  padding: 0 15px;
-}
-
-.page02-sec03-content .title {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 15px;
-}
-
-.page02-sec03-content .title i {
+.page02-sec02-content .title i {
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #d66f6f;
   transform: rotate(45deg);
+  background: #dc6871;
+  margin-top: 1px;
   margin-right: 10px;
 }
 
-.page02-sec03-content .title h3 {
-  color: #d66f6f;
-  font-size: 17px;
+.page02-sec02-content .title span {
+  font-size: 16px;
+  color: #dc6871;
 }
 
-.page02-sec03-content .inner {
-  background: #f4f4f4;
-  padding: 15px;
-  padding-right: 10px;
-  padding-left: 20px;
-  border-radius: 6px;
-}
-
-.page02-sec03-content .inner p {
-  font-size: 15px;
-  color: #616161;
-  padding-bottom: 15px;
-}
-
-.page02-sec03-content .inner .img {
+.page02-sec02-content .img {
   font-size: 0;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.page02-sec03-content .inner .img img {
+.page02-sec02-content .img img {
   width: 100%;
 }
 
-/* 给您的保障 */
-.page02-sec05-content {
-  padding: 0 15px;
-  padding-bottom: 35px;
+/* 模块三: 成功案例 */
+.page02-sec03 {
+  padding-bottom: 30px;
 }
 
-.page02-sec05-content .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 25px;
-  font-size: 0;
-}
-
-.page02-sec05-content .item img {
-  width: 76px;
-  height: 70px;
-  margin-bottom: 10px;
-}
-
-.page02-sec05-content .item span {
-  font-size: 15px;
-  color: #616161;
-  line-height: 26px;
-}
-
-/* 挽回爱情服务流程 */
-.page02-sec06-content {
-  padding-bottom: 35px;
-}
-
-.page02-sec06-content .swiper-container {
-  padding-left: 15px;
-  padding-bottom: 20px;
-}
-
-.page02-sec06-content .swiper-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.page02-sec06-content .swiper-slide span {
-  display: inline-block;
-}
-
-.page02-sec06-content .swiper-slide span.number {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  border-radius: 50%;
-  background: #ebb5b4;
-  color: #fff;
+.page02-sec03 h1 {  /* 标题 */
+  padding: 35px 0 15px 15px;
   font-size: 17px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  font-weight: bold;
+  color: #313131;
+  border-bottom: 1px solid #e9e9e9;
 }
 
-.page02-sec06-content .swiper-slide:nth-child(2) span.number {
-  background: #67c7e8;
+.page02-sec03-content {
+  padding: 25px 0;
 }
 
-.page02-sec06-content .swiper-slide:nth-child(3) span.number {
-  background: #ffd15c;
+.page02-sec03-content-item {
+  padding: 0 15px 20px;
+  display: flex;
 }
 
-.page02-sec06-content .swiper-slide:nth-child(5) span.number {
-  background: #67c7e8;
+.page02-sec03-content-item:first-child {
+  padding-top: 0;
 }
 
-.page02-sec06-content .swiper-slide:nth-child(6) span.number {
-  background: #ffd15c;
+.page02-sec03-content-item:last-child {
+  padding-bottom: 0;
 }
 
-.page02-sec06-content .swiper-scrollbar-drag {
-  background: rgba(0, 0, 0, .3);
+.page02-sec03-content-item-text {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page02-sec03-content-item-text h3,
+.page02-sec03-content-item-text p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 17px;
+  color: #313131;
+}
+
+.page02-sec03-content-item-text p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #919191;
+}
+
+.page02-sec03-content-item-img {
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+.page02-sec03-content-item-img img {
+  width: 100%;
 }

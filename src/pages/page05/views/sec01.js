@@ -4,7 +4,7 @@ import Title from './title';
 class Content extends Component {
   render() {
     return(
-      <div className="page02-sec01-content">
+      <div className="page05-sec01-content">
 	<div className="para">
 	  <p className="text-indent">随着当今中国社会的爱情分手率，离婚率不断升高，两性清感问题，已然成为普遍的社会问题，爱情破裂的原因有很多，或大或小比如：</p>
 	</div>
@@ -58,7 +58,7 @@ class Content extends Component {
 class Sec01 extends Component {
   render() {
     return (
-      <div className="page02-sec01">
+      <div className="page05-sec01">
 	<Title title="挽爱计划私人订制服务" />
 	<Content />
       </div>

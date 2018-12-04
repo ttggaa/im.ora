@@ -29,7 +29,7 @@ const sections = [{
 class Content extends Component {
   render() {
     return (
-      <div className="page02-sec05-content">
+      <div className="page05-sec05-content">
 	{
 	  sections.map((item, index) => {
 	    return (
@@ -54,7 +54,7 @@ class Content extends Component {
 class Sec05 extends Component {
   render() {
     return (
-      <div className="page02-sec01">
+      <div className="page05-sec01">
 	<Title title="给您的保障" />
 	<Content />
       </div>

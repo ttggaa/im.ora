@@ -17,7 +17,7 @@ const sections = [{
 class Content extends Component {
   render() {
     return (
-      <div className="page02-sec03-content">
+      <div className="page05-sec03-content">
 	{
 	  sections.map((item, index) => {
 	    return (
@@ -44,7 +44,7 @@ class Content extends Component {
 class Sec04 extends Component {
   render() {
     return (
-      <div className="page02-sec04">
+      <div className="page05-sec04">
 	<Title title="橘子情感优势" />
 	<Content />
       </div>
