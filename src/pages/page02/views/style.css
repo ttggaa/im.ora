@@ -17,12 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 5px;
 }
 
 .page02-sec01-content .group-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
 }
 
 .page02-sec01-content .group-item .img {
@@ -33,6 +35,11 @@
 
 .page02-sec01-content .group-item .img img {
   width: 100%;
+}
+
+.page02-sec01-content .group-item span {
+  padding-top: 5px;
+  color: #313131;
 }
 
 /* 模块二: 婚姻危机出现的原因 */
