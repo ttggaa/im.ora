@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Swiper from 'swiper/dist/js/swiper.min.js';
-import Title from './title';
+import {view as Title} from '../../../components/pageTitle/';
 
 import icon01 from './images/sec03-icon01.png';
 import icon02 from './images/sec03-icon02.png';
