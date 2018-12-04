@@ -195,19 +195,19 @@ const Sec03 = () => (  // 模块三: 成功案例
     <Title title="成功案例" />
     <div className="page02-sec03-content">
       {
-      articles.map((item, index) => {
-      return (
-      <div className="page02-sec03-content-item" key={index}>
-	<div className="page02-sec03-content-item-text">
-	  <h3 className="text-justify">{item.title}</h3>
-	  <p className="text-justify">{item.des}</p>
-	</div>
-	<div className="page02-sec03-content-item-img">
-	  <img src={item.image} alt="" />
-	</div>
-      </div>
-      );
-      })
+	articles.map((item, index) => {
+	  return (
+	    <div className="page02-sec03-content-item" key={index}>
+	      <div className="page02-sec03-content-item-text">
+		<h3 className="text-justify">{item.title}</h3>
+		<p className="text-justify">{item.des}</p>
+	      </div>
+	      <div className="page02-sec03-content-item-img">
+		<img src={item.image} alt={item.title} />
+	      </div>
+	    </div>
+	  );
+	})
       }
     </div>
   </div>
