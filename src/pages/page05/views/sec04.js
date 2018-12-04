@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Title from './title';
+import {view as Title} from '../../../components/pageTitle/';
 
 import sectionImg01 from './images/sec04-img01.png';
 import sectionImg02 from './images/sec04-img02.png';

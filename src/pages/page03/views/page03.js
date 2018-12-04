@@ -2,6 +2,8 @@ import React from 'react';
 import Swiper from 'swiper/dist/js/swiper.min.js';
 import {view as Header} from '../../../components/header/';
 import {view as Footer} from '../../../components/footer/';
+import {view as Title} from '../../../components/pageTitle/';
+import {view as ArticleList} from '../../../components/articleList/';
 
 import toPc from '../../../utilities/toPc';
 
@@ -100,43 +102,44 @@ const sec02Items = [  // 模块二数据
   ]
 ];
 
-const sec03Items = [  // 模块三数据
+const articles = [  // 模块三数据
   {
+    url: 'page03_article01',
     title: '文章标题',
     des: 'des',
-    img: articleImg01
+    image: articleImg01
   },
   {
+    url: 'page03_article02',
     title: '文章标题',
     des: 'des',
-    img: articleImg02
+    image: articleImg02
   },
   {
+    url: 'page03_article03',
     title: '文章标题',
     des: 'des',
-    img: articleImg03
+    image: articleImg03
   },
   {
+    url: 'page03_article04',
     title: '文章标题',
     des: 'des',
-    img: articleImg04
+    image: articleImg04
   },
   {
+    url: 'page03_article05',
     title: '文章标题',
     des: 'des',
-    img: articleImg05
+    image: articleImg05
   }
 ];
-
-const SecTitle = ({title}) => (  // 模块标题
-  <h1 className="page03-title">{title}</h1>
-);
 
 class Sec01 extends React.Component {  // 模块一：单身原因
   render() {
     return (
       <div className="page03-sec01">
-	<SecTitle title="单身原因" />
+	<Title title="单身原因" />
 	<div className="page03-sec01-content">
 	  <div className="swiper-container" ref="swiper">
 	    <div className="swiper-wrapper">
@@ -192,7 +195,7 @@ class Sec01 extends React.Component {  // 模块一：单身原因
 
 const Sec02 = () => (  // 模块二：错误做法导致后果
   <div className="page03-sec02">
-    <SecTitle title="错误做法导致后果" />
+    <Title title="错误做法导致后果" />
     {
       sec02Items.map((item, index) => {
 	return (
@@ -216,24 +219,19 @@ const Sec02 = () => (  // 模块二：错误做法导致后果
 
 const Sec03 = () => (  // 模块三：成功案例
   <div className="page03-sec03">
-    <SecTitle title="成功案例" />
-    <div className="page03-sec03-content">
-      {
-	sec03Items.map((item, index) => {
-	  return (
-	    <div className="item" key={index}>
-	      <div className="item-text">
-	        <h3>{item.title}</h3>
-	        <p>{item.des}</p>
-	      </div>
-	      <div className="item-img">
-		<img src={item.img} alt="文章配图" />
-	      </div>
-	    </div>
-	  );
-	})
-      }
-    </div>
+    <Title title="成功案例" />
+    {
+      articles.map((item, index) => {
+	return (
+	  <ArticleList key={index}
+	    articleUrl={`../${item.url}`}
+	    articleTitle={item.title}
+	    articleDescription={item.des}
+	    articleImage={item.image}
+	  />
+	);
+      })
+    }
   </div>
 );
 

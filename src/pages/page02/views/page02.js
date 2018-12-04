@@ -3,7 +3,8 @@ import Swiper from 'swiper/dist/js/swiper.min.js';
 
 import {view as Header} from '../../../components/header/';
 import {view as Footer} from '../../../components/footer/';
-import Title from './title.js';
+import {view as ArticleList} from '../../../components/articleList/';
+import {view as Title} from '../../../components/pageTitle/';
 
 import 'swiper/dist/css/swiper.min.css';
 import '../../style.css';
@@ -97,22 +98,27 @@ const sec02Items = [  // 模块二数据: 婚姻危机出现的原因
 ];
 
 const articles = [{  // 模块三数据: 成功案例
+  url: 'page02_article01',
   title: '文章标题',
   des: '文章描述',
   image: anli01
 }, {
+  url: 'page02_article02',
   title: '文章标题',
   des: '文章描述',
   image: anli02
 }, {
+  url: 'page02_article03',
   title: '文章标题',
   des: '文章描述',
   image: anli03
 }, {
+  url: 'page02_article04',
   title: '文章标题',
   des: '文章描述',
   image: anli04
 }, {
+  url: 'page02_article05',
   title: '文章标题',
   des: '文章描述',
   image: anli05
@@ -193,23 +199,18 @@ class Sec02 extends React.Component {  // 模块二: 婚姻危机出现的原因
 const Sec03 = () => (  // 模块三: 成功案例
   <div className="page02-sec03">
     <Title title="成功案例" />
-    <div className="page02-sec03-content">
-      {
-	articles.map((item, index) => {
-	  return (
-	    <div className="page02-sec03-content-item" key={index}>
-	      <div className="page02-sec03-content-item-text">
-		<h3 className="text-justify">{item.title}</h3>
-		<p className="text-justify">{item.des}</p>
-	      </div>
-	      <div className="page02-sec03-content-item-img">
-		<img src={item.image} alt={item.title} />
-	      </div>
-	    </div>
-	  );
-	})
-      }
-    </div>
+    {
+      articles.map((item, index) => {
+	return (
+	  <ArticleList key={index}
+	    articleUrl={`../${item.url}`}
+	    articleTitle={item.title}
+	    articleDescription={item.des}
+	    articleImage={item.image}
+	  />
+	);
+      })
+    }
   </div>
 );
 

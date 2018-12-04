@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Swiper from 'swiper/dist/js/swiper.min.js';
-import Title from './title';
+import {view as Title} from '../../../components/pageTitle/';
 
 const slides = [
   {number: 1, text: '资讯专业导师'},

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Title from './title';
+import {view as Title} from '../../../components/pageTitle/';
 
 class Content extends Component {
   render() {
