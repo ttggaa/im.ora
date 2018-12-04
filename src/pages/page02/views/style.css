@@ -44,13 +44,15 @@
 
 /* 模块二: 婚姻危机出现的原因 */
 .page02-sec02-content .swiper-container {
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 55px;
 }
 
 .page02-sec02-content .title {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 .page02-sec02-content .title i {
@@ -78,6 +80,18 @@
 
 .page02-sec02-content .img img {
   width: 100%;
+}
+
+.page02-sec02 .swiper-pagination-bullet {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: #919191;
+  transition: all .3s;
+}
+
+.page02-sec02 .swiper-pagination-bullet-active {
+  background: #ebb3b3;
 }
 
 /* 模块三: 成功案例 */
