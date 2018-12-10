@@ -7,11 +7,22 @@ import './style.css';
 
 import toPc from '../../../utilities/toPc';
 
+import bannerImg from './images/banner.png';
+
+const Banner = (props) => (  // banner
+  <div className="page07-banner">
+    <img
+      src={bannerImg}
+      alt="权威专家 | 橘子情感" 
+      title="权威专家 | 橘子情感" 
+    />
+  </div>
+);
+
 class Sec01 extends React.Component {  // 模块一
   render() {
     return (
       <div className="page07-sec01">
-        sec01
       </div>
     );
   }
@@ -32,6 +43,7 @@ class Page07 extends React.Component {
     return (
       <div className="page07">
 	<Header home={false} title="权威专家" />
+        <Banner />
 	<Sec01 />
 	<Sec02 />
 	<Footer />
