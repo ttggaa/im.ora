@@ -2,3 +2,17 @@
 .page07-banner {font-size: 0;}
 .page07-banner img {width: 100%;}
 
+/* 模块一 */
+.page07-sec01 {
+  padding: 15px;
+  margin: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+.page07-sec01 p {
+  font-size: 15px;
+  text-indent: 30px;
+}
