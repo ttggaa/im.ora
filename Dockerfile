@@ -2,7 +2,7 @@
 FROM node
 
 # 工作目录
-WORKDIR /www/im.ora
+WORKDIR /var/www
 
 # 暴露端口
 EXPOSE 3000
