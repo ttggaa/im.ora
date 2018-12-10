@@ -16,3 +16,28 @@
   font-size: 15px;
   text-indent: 30px;
 }
+
+/* 模块二 */
+.page07-sec02 {
+  background: #efafb3;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.page07-sec02 h1 {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.page07-sec02 .mentor-item {
+  font-size: 0;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+
+.page07-sec02 .mentor-item img {
+  width: 100%;
+}
