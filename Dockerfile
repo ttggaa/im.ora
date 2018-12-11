@@ -1,6 +1,9 @@
 # 基础镜像
 FROM node
 
+# 维护者信息
+MAINTAINER smpower (rf.wangchn@gmail.com)
+
 # 工作目录
 WORKDIR /var/www
 
