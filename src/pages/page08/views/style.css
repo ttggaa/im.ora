@@ -24,3 +24,61 @@
   padding: 0 15px;
 }
 
+/* 模块一 */
+.page08-sec01 {
+  background: transparent;
+  position: relative;
+}
+
+.page08-sec01 .group {
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.page08-sec01 .group .item {
+  display: flex;
+  padding: 0 15px;
+  margin: 25px 0;
+  background: transparent;
+}
+
+.page08-sec01 .group .item:first-child {
+  margin-top: 10px;
+  padding-top: 25px;
+}
+
+.page08-sec01 .group .item:last-child {background: #fff;}
+
+.page-sec01 .group .item .icon {
+  font-size: 0;
+  background: transparent;
+}
+
+.page08-sec01 .group .item .icon img {max-width: 62px;}
+
+.page08-sec01 .group .item .text {
+  padding-left: 15px;
+}
+
+.page08-sec01 .group .item .text h4 {
+  font-size: 15px;
+  color: #efafb3;
+  padding-bottom: 5px;
+}
+
+.page08-sec01 .group .item .text p {
+  font-size: 13px;
+  color: #616161;
+}
+
+.page08-sec01 .line {
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background: green;
+  position: absolute;
+  top: 0;
+  left: 46px;
+}
+
