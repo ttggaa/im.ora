@@ -1,22 +1,27 @@
 #!/bin/sh
 
-rsync -av --delete ~/www/im.xiaoyu/build/articles\
-                   ~/www/im.xiaoyu/build/classify01\
-                   ~/www/im.xiaoyu/build/classify02\
-		   ~/www/im.xiaoyu/build/classify04\
-		   ~/www/im.xiaoyu/build/im/*\
-		   ~/www/im.xiaoyu/build/page01\
-		   ~/www/im.xiaoyu/build/page02\
-		   ~/www/im.xiaoyu/build/page03\
-		   ~/www/im.xiaoyu/build/page04\
-		   ~/www/im.xiaoyu/build/help\
-		   ~/www/im.xiaoyu/build/index.html\
-		   ~/www/im.xiaoyu/build/asset-manifest.json\
-		   ~/www/im.xiaoyu/build/favicon.ico\
-		   ~/www/im.xiaoyu/build/manifest.json\
-		   ~/www/im.xiaoyu/build/service-worker.js\
-		   ~/www/im.xiaoyu/build/sitemap.xml\
-		   ~/www/im.xiaoyu/build/static\
+
+# 将打包后的项目 copy 到家目录
+rsync -av --delete ~/www/im.ora/build/articles\
+                   ~/www/im.ora/build/classify01\
+                   ~/www/im.ora/build/classify02\
+		   ~/www/im.ora/build/classify04\
+		   ~/www/im.ora/build/im/*\
+		   ~/www/im.ora/build/page01\
+		   ~/www/im.ora/build/page02\
+		   ~/www/im.ora/build/page03\
+		   ~/www/im.ora/build/page04\
+		   ~/www/im.ora/build/page05\
+		   ~/www/im.ora/build/page06\
+		   ~/www/im.ora/build/page07\
+		   ~/www/im.ora/build/page08\
+		   ~/www/im.ora/build/index.html\
+		   ~/www/im.ora/build/asset-manifest.json\
+		   ~/www/im.ora/build/favicon.ico\
+		   ~/www/im.ora/build/manifest.json\
+		   ~/www/im.ora/build/service-worker.js\
+		   ~/www/im.ora/build/sitemap.xml\
+		   ~/www/im.ora/build/static\
 		   ~/www/im
 
 exit 0
