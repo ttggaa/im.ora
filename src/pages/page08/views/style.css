@@ -116,3 +116,49 @@
   background: #ebb3b3;
 }
 
+/* 模块四：给您的保障 */
+.page08-sec03 .content-group {
+  padding: 0 15px;
+}
+
+.page08-sec03 .item {
+  margin: 25px 0 ;
+}
+
+.page08-sec03 .item h3 {
+  font-size: 16px;
+  color: #df6a73;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.page08-sec03 .item h3 i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #df6a73;
+  transform: rotate(45deg);
+  margin-right: 10px;
+}
+
+.page08-sec03 .item-box {
+  background: #f4f4f4;
+  border-radius: 6px;
+  padding: 15px;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.page08-sec03 .item-box p {
+  font-size: 14px;
+  color: #919191;
+}
+
+.page08-sec03 .item-box img {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+}
+
