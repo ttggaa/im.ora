@@ -19,10 +19,17 @@ import icon2015 from './images/2015.png';
 import icon2016 from './images/2016.png';
 import icon2017 from './images/2017.png';
 
+// 模块二图标
 import swiperImg01 from './images/image01.png';
 import swiperImg02 from './images/image02.png';
 
-const sec01Items = [
+// 模块三图标
+import sec03icon01 from './images/icon-1.png';
+import sec03icon02 from './images/icon-2.png';
+import sec03icon03 from './images/icon-3.png';
+import sec03icon04 from './images/icon-4.png';
+
+const sec01Items = [  // 模块一数据
   {
     icon: icon2012,
     title: '2012年',
@@ -55,7 +62,7 @@ const sec01Items = [
   }
 ];
 
-const sec03Items = [
+const sec02Items = [  // 模块二数据
   {
     img: swiperImg01,
     alt: '橘子环境配图'
@@ -63,6 +70,29 @@ const sec03Items = [
   {
     img: swiperImg02,
     alt: '橘子环境配图'
+  }
+];
+
+const sec03Items = [  // 模块三数据
+  {
+    title: '无微不至',
+    para: '所有付费用户的清况都会有专属的专业导师组，多对一进行指导，任何问题及时得到解答，用户情感状况的每一个转折点，都在导师掌握中。',
+    icon: sec03icon01
+  },
+  {
+    title: '专业团队',
+    para: '橘子情感所有导师，均为业内资深导师，有着平均多年以上的实战指导经验，在两性情感学都有着多年的研究经验。',
+    icon: sec03icon02
+  },
+  {
+    title: '私人定制',
+    para: '每一位用户的清况，都会得到重视，无论是总体战略，还是每一步细节操作，均为结合具体清况的私人订制方案确保成功率。',
+    icon: sec03icon03
+  },
+  {
+    title: '用户保障',
+    para: '橘子情感作为行业的标杆，对行业的发展有着一份沉甸甸的责任。以身作则，将用户的权益放在首位，保障用户隐私以及情况解决。',
+    icon: sec03icon04
   }
 ];
 
@@ -101,7 +131,7 @@ const Sec01 = () => (  // 模块一
   </div>
 );
 
-class Sec02 extends React.Component {  // 模块三：橘子环境
+class Sec02 extends React.Component {  // 模块二：橘子环境
   render() {
     return (
       <div className="page08-sec02">
@@ -109,8 +139,8 @@ class Sec02 extends React.Component {  // 模块三：橘子环境
         <div className="content">
 	  <div className="swiper-container" ref="swiper">
 	    <div className="swiper-wrapper">
-	      {/* TODO: swiper-slide */
-	        sec03Items.map((item, index) => (
+	      {
+	        sec02Items.map((item, index) => (
 		  <div className="swiper-slide" key={index}>
 		    <img src={item.img} alt={item.alt} />
 		  </div>
@@ -138,6 +168,27 @@ class Sec02 extends React.Component {  // 模块三：橘子环境
   }
 }
 
+const Sec03 = () => (  //模块三：给您的保障
+  <div className="page08-sec03">
+    <Title title="给您的保障" />
+    <div className="content-group">
+      {/* TODO: item */
+        sec03Items.map((item, index) => (
+	  <div className="item" key={index}>
+	    <h3>
+	      <i></i> {item.title}
+	    </h3>
+	    <div className="item-box">
+	      <p className="text-justify">{item.para}</p>
+	      <img src={item.icon} alt="图标" />
+	    </div>
+	  </div>
+	))
+      }
+    </div>
+  </div>
+);
+
 class Page08 extends React.Component {
   render() {
     return (
@@ -146,6 +197,7 @@ class Page08 extends React.Component {
 	<Banner />
 	<Sec01 />
 	<Sec02 />
+	<Sec03 />
 	<Footer />
       </div>
     );
