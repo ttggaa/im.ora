@@ -86,3 +86,33 @@
   left: 51px;
 }
 
+/* 模块三：橘子环境 */
+.page08-sec02 .content {
+  padding: 25px 15px;
+}
+
+.page08-sec02 .content .swiper-slide {
+  font-size: 0;
+}
+
+.page08-sec02 .content .swiper-slide img {
+  width: 100%;
+}
+
+.page08-sec02 .content .swiper-container {
+  padding-bottom: 30px;
+}
+
+.page08-sec02 .swiper-pagination-bullet {
+  margin: 0 4px;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: #616161;
+  transition: all .3s;
+}
+
+.page08-sec02 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #ebb3b3;
+}
+
