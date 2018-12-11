@@ -162,3 +162,23 @@
   margin: 0 15px;
 }
 
+/* 模块五：合作媒体 */
+.page08-sec04 .content {
+  font-size: 0;
+  margin: 25px 15px;
+  background: #efafb3;
+  border-radius: 6px;
+  padding: 5px 15px;
+}
+
+.page08-sec04 .content .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.page08-sec04 img {
+  width: 65px;
+  height: 27px;
+}
+

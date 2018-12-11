@@ -29,6 +29,20 @@ import sec03icon02 from './images/icon-2.png';
 import sec03icon03 from './images/icon-3.png';
 import sec03icon04 from './images/icon-4.png';
 
+// 模块四图片
+import sec04icon01 from './images/01.png';
+import sec04icon02 from './images/02.png';
+import sec04icon03 from './images/03.png';
+import sec04icon04 from './images/04.png';
+import sec04icon05 from './images/05.png';
+import sec04icon06 from './images/06.png';
+import sec04icon07 from './images/07.png';
+import sec04icon08 from './images/08.png';
+import sec04icon09 from './images/09.png';
+import sec04icon10 from './images/10.png';
+import sec04icon11 from './images/11.png';
+import sec04icon12 from './images/12.png';
+
 const sec01Items = [  // 模块一数据
   {
     icon: icon2012,
@@ -94,6 +108,12 @@ const sec03Items = [  // 模块三数据
     para: '橘子情感作为行业的标杆，对行业的发展有着一份沉甸甸的责任。以身作则，将用户的权益放在首位，保障用户隐私以及情况解决。',
     icon: sec03icon04
   }
+];
+
+const sec04Items = [  // 模块四数据
+  [sec04icon01, sec04icon02, sec04icon03, sec04icon04],
+  [sec04icon05, sec04icon06, sec04icon07, sec04icon08],
+  [sec04icon09, sec04icon10, sec04icon11, sec04icon12]
 ];
 
 const Banner = () => (  // Banner
@@ -168,11 +188,11 @@ class Sec02 extends React.Component {  // 模块二：橘子环境
   }
 }
 
-const Sec03 = () => (  //模块三：给您的保障
+const Sec03 = () => (  // 模块三：给您的保障
   <div className="page08-sec03">
     <Title title="给您的保障" />
     <div className="content-group">
-      {/* TODO: item */
+      {
         sec03Items.map((item, index) => (
 	  <div className="item" key={index}>
 	    <h3>
@@ -189,6 +209,25 @@ const Sec03 = () => (  //模块三：给您的保障
   </div>
 );
 
+const Sec04 = () => (  // 模块四：合作媒体
+  <div className="page08-sec04">
+    <Title title="合作媒体" />
+    <div className="content">
+      {
+        sec04Items.map((item, index) => (
+	  <div className="item" key={index}>
+	    {
+	      item.map((innerItem, innerIndex) => (
+		<img src={innerItem} key={innerIndex} />
+	      ))
+	    }
+	  </div>
+	))
+      }
+    </div>
+  </div>
+);
+
 class Page08 extends React.Component {
   render() {
     return (
@@ -198,6 +237,7 @@ class Page08 extends React.Component {
 	<Sec01 />
 	<Sec02 />
 	<Sec03 />
+	<Sec04 />
 	<Footer />
       </div>
     );
