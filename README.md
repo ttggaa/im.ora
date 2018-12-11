@@ -25,7 +25,7 @@
 
 1. 执行 `yarn build` 对项目打包；
 2. 执行 `yarn sitemap` 生成站点地图；
-3. 执行 `yanr build:copy` 整理打包后的项目目录并将其拷贝到家目录下的 im 文件夹。
+3. 执行 `yanr build:copy` 整理打包后的项目目录并将其拷贝到 ~/www/im 文件夹。
 4. 将家目录 im 文件夹下的文件上传到虚拟主机即可。
 
 
