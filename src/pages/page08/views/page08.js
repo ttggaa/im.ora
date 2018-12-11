@@ -9,6 +9,45 @@ import './style.css';
 import toPc from '../../../utilities/toPc';
 
 import bannerImg from './images/banner.png';
+import icon2012 from './images/2012.png';
+import icon2013 from './images/2013.png';
+import icon2014 from './images/2014.png';
+import icon2015 from './images/2015.png';
+import icon2016 from './images/2016.png';
+import icon2017 from './images/2017.png';
+
+const sec01Items = [
+  {
+    icon: icon2012,
+    title: '2012年',
+    para: '嘉伟导师携手业内众多顶尖导师，在香港、澳门、台湾等地，开设巡讲班，将行业推至更高的高度。深化社会使命感，受到各界认可。'
+  },
+  {
+    icon: icon2013,
+    title: '2013年',
+    para: '设立行业标准，开设了全国情感导师培植计划，统一规范了从业资格，提高整体行业平均水平。被众多主流媒体争相报道。'
+  },
+  {
+    icon: icon2014,
+    title: '2014年',
+    para: '获得山东省心理讲课教育资讯中心授权单位资格。在解决情感心理健康方面，橘子情感不断不遗余力实现自己的社会价值。'
+  },
+  {
+    icon: icon2015,
+    title: '2015年',
+    para: '荣获山东省婚恋资讯协会先进单位。橘子情感开创的情感挽回师、婚恋维稳师等职业，为行业输送了大量人才，并开设分公司，填补市场需求。'
+  },
+  {
+    icon: icon2016,
+    title: '2016年',
+    para: '获得家庭婚恋服务协会理事单位资格。以信仰幸福、学会感恩的态度，帮助数万名用户，重获幸福。并且受中美澳联合国际医学研究院邀请，开设《幸福讲座》。'
+  },
+  {
+    icon: icon2017,
+    title: '2017年',
+    para: '荣获十大杰出诚信企业，橘子情感一直以做有良心、有社会责任感的阳光企业为方向，客户好评率高达98.5%，引领着整个行业的发展方向。'
+  }
+];
 
 const Banner = () => (  // Banner
   <div className="page08-banner">
@@ -26,7 +65,22 @@ const Banner = () => (  // Banner
 
 const Sec01 = () => (  // 模块一
   <div className="page08-sec01">
-    sec01 ...
+    <div className="group">
+      {
+        sec01Items.map((item, index) => (
+	  <div className="item" key={index}>
+	    <div className="icon">
+	      <img src={item.icon} alt={item.title} />
+	    </div>
+	    <div className="text">
+	      <h4>{item.title}</h4>
+	      <p className="text-justify">{item.para}</p>
+	    </div>
+	  </div>
+	))
+      }
+    </div>
+    <span className="line"></span>
   </div>
 );
 
