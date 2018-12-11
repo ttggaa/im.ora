@@ -55,7 +55,11 @@
   background: transparent;
 }
 
-.page08-sec01 .group .item .icon img {max-width: 62px;}
+.page08-sec01 .group .item .icon img {
+  max-width: 62px;
+  border: 5px solid #fff; 
+  border-radius: 50%;
+}
 
 .page08-sec01 .group .item .text {
   padding-left: 15px;
@@ -76,9 +80,9 @@
   display: inline-block;
   width: 1px;
   height: 100%;
-  background: green;
+  background: #efafb3;
   position: absolute;
   top: 0;
-  left: 46px;
+  left: 51px;
 }
 
