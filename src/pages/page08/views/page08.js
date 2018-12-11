@@ -1,8 +1,11 @@
 import React from 'react';
+import Swiper from 'swiper/dist/js/swiper.min.js';
+
 import {view as Header} from '../../../components/header/';
 import {view as Footer} from '../../../components/footer/';
 import {view as Title} from '../../../components/pageTitle/';
 
+import 'swiper/dist/css/swiper.min.css';
 import '../../style.css';
 import './style.css';
 
@@ -15,6 +18,9 @@ import icon2014 from './images/2014.png';
 import icon2015 from './images/2015.png';
 import icon2016 from './images/2016.png';
 import icon2017 from './images/2017.png';
+
+import swiperImg01 from './images/image01.png';
+import swiperImg02 from './images/image02.png';
 
 const sec01Items = [
   {
@@ -46,6 +52,17 @@ const sec01Items = [
     icon: icon2017,
     title: '2017年',
     para: '荣获十大杰出诚信企业，橘子情感一直以做有良心、有社会责任感的阳光企业为方向，客户好评率高达98.5%，引领着整个行业的发展方向。'
+  }
+];
+
+const sec03Items = [
+  {
+    img: swiperImg01,
+    alt: '橘子环境配图'
+  },
+  {
+    img: swiperImg02,
+    alt: '橘子环境配图'
   }
 ];
 
@@ -84,6 +101,43 @@ const Sec01 = () => (  // 模块一
   </div>
 );
 
+class Sec02 extends React.Component {  // 模块三：橘子环境
+  render() {
+    return (
+      <div className="page08-sec02">
+        <Title title="橘子环境" />
+        <div className="content">
+	  <div className="swiper-container" ref="swiper">
+	    <div className="swiper-wrapper">
+	      {/* TODO: swiper-slide */
+	        sec03Items.map((item, index) => (
+		  <div className="swiper-slide" key={index}>
+		    <img src={item.img} alt={item.alt} />
+		  </div>
+		))
+	      }
+	    </div>
+	    <div className="swiper-pagination"></div>
+	  </div>
+	</div>
+      </div>
+    );
+  }
+
+  componentDidMount() {
+    new Swiper(this.refs.swiper, {
+      observer: true,
+      autoplay: false,
+      delay: 5000,
+      loop: true,
+      spaceBetween: 15,  // 间隔
+      pagination: {
+        el: '.swiper-pagination'
+      }
+    });
+  }
+}
+
 class Page08 extends React.Component {
   render() {
     return (
@@ -91,6 +145,7 @@ class Page08 extends React.Component {
 	<Header home={false} title="成功案例" />
 	<Banner />
 	<Sec01 />
+	<Sec02 />
 	<Footer />
       </div>
     );
