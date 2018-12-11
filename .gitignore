@@ -26,6 +26,6 @@ yarn-error.log*
 # 临时取消的忽略文件(夹)
 src/entries/articles
 src/pages/articles
-src/data/articleImages
+# src/data/articleImages
 src/pages/index/views/banner_bak
 spec
