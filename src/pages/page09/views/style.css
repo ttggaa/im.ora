@@ -1,3 +1,9 @@
 /* Banner */
+.page09-banner {
+  font-size: 0;
+  position: relative;
+}
+
+.page09-banner img {width: 100%;}
 
 
