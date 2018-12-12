@@ -113,6 +113,10 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page08.js'
     ],
+    page09: [  // 嘉伟导师十本好书推荐
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page09.js'
+    ],
     // classify01: [
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/classify01.js'
@@ -537,6 +541,12 @@ module.exports = {
       chunks: ['page08'],
       filename: 'page08/index.html',
       title: '关于我们 | 橘子情感'
+    }),
+    new HtmlWebpackPlugin({  // 嘉伟导师十本好书推荐
+      ...htmlWebpackPluginOptions,
+      chunks: ['page09'],
+      filename: 'page09/index.html',
+      title: '嘉伟导师十本好书推荐 | 橘子情感'
     }),
 
     // classfies bellow

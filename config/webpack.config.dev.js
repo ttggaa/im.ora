@@ -101,6 +101,11 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page08.js'
     ],
+    page09: [  // 嘉伟导师是本好书推荐
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page09.js'
+    ],
 
     // articles' entry bellow
     // a1_1: [
@@ -524,6 +529,12 @@ module.exports = {
       chunks: ['page08'],
       title: '关于我们 | 橘子情感',
       filename: 'page08/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 嘉伟导师十本好书推荐
+      ...htmlWebpackPluginOptions,
+      chunks: ['page09'],
+      title: '嘉伟导师十本好书推荐 | 橘子情感',
+      filename: 'page09/index.html'
     }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
