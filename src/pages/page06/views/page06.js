@@ -35,14 +35,17 @@ import img15 from './images/img15.png';
 
 const bannerItems = [  // 模块一轮播图数据
   {
+    url: '../page09/',
     img: bannerImg01,
     title: '嘉伟导师十本好书推荐'
   },
   {
+    url: '##',
     img: bannerImg02,
     title: 'title of banner02'
   },
   {
+    url: '##',
     img: bannerImg03,
     title: 'title of banner03'
   }
@@ -150,14 +153,14 @@ class BannerSwiper extends React.Component {  // 模块一：轮播图
 	     <div className="swiper-wrapper">
 	       {
 		 bannerItems.map((item, index) => (
-		   <div className="swiper-slide" key={index}>
+		   <a className="swiper-slide" key={index} href={item.url}>
 		     <div className="img">
 		       <img src={item.img} alt={item.title} />
 		     </div>
 		     <div className="title">
 		       <p>{item.title}</p>
 		     </div>
-		   </div>
+		   </a>
 		 ))
 	       }
 	     </div>
