@@ -157,7 +157,7 @@
 }
 
 .page08-sec03 .item-box img {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   margin: 0 15px;
 }

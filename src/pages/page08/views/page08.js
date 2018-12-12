@@ -111,9 +111,60 @@ const sec03Items = [  // 模块三数据
 ];
 
 const sec04Items = [  // 模块四数据
-  [sec04icon01, sec04icon02, sec04icon03, sec04icon04],
-  [sec04icon05, sec04icon06, sec04icon07, sec04icon08],
-  [sec04icon09, sec04icon10, sec04icon11, sec04icon12]
+  [
+    {
+      icon: sec04icon01,
+      alt: '百度'
+    }, 
+    {
+      icon: sec04icon02,
+      alt: '腾讯'
+    }, 
+    {
+      icon: sec04icon03,
+      alt: '爱奇艺'
+    }, 
+    {
+      icon: sec04icon04,
+      alt: '搜狐'
+    }
+  ],
+  [
+    {
+      icon: sec04icon05,
+      alt: '人民网'
+    },
+    {
+      icon: sec04icon06,
+      alt: '中国经济网'
+    },
+    {
+      icon: sec04icon07,
+      alt: 'CNN'
+    },
+    {
+      icon: sec04icon08,
+      alt: '周末南方'
+    }
+  ],
+  [
+    {
+      icon: sec04icon09,
+      alt: '优酷'
+    },
+    {
+      icon: sec04icon10,
+      alt: '今日头条'
+    },
+    {
+      icon: sec04icon11,
+      alt: '黑马网'
+    },
+    {
+      icon: sec04icon12,
+      alt: '网易'
+    }
+  ]
 ];
 
 const Banner = () => (  // Banner
@@ -218,7 +269,7 @@ const Sec04 = () => (  // 模块四：合作媒体
 	  <div className="item" key={index}>
 	    {
 	      item.map((innerItem, innerIndex) => (
-		<img src={innerItem} key={innerIndex} />
+		<img src={innerItem.icon} key={innerIndex} alt={innerItem.alt} />
 	      ))
 	    }
 	  </div>
