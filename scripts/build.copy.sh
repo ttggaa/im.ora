@@ -3,9 +3,6 @@
 
 # 将打包后的项目 copy 到家目录
 rsync -av --delete ~/www/im.ora/build/articles\
-                   ~/www/im.ora/build/classify01\
-                   ~/www/im.ora/build/classify02\
-		   ~/www/im.ora/build/classify04\
 		   ~/www/im.ora/build/im/*\
 		   ~/www/im.ora/build/page01\
 		   ~/www/im.ora/build/page02\
