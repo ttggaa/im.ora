@@ -283,7 +283,7 @@ class Page08 extends React.Component {
   render() {
     return (
       <div className="page08">
-	<Header home={false} title="成功案例" />
+	<Header home={false} title="关于我们" />
 	<Banner />
 	<Sec01 />
 	<Sec02 />
