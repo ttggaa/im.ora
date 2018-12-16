@@ -16,10 +16,10 @@
 }
 
 .index-intro p {
-  font-size: 14px;
+  font-size: 13px;
   color: #313131;
   position: absolute;
-  top: 220px;
+  top: 215px;
   padding: 0 25px;
 }
 
@@ -27,5 +27,5 @@
 }
 
 .index-intro p:last-child {
-  top: 365px;
+  top: 370px;
 }
