@@ -4,7 +4,7 @@
 ## 安装要求
 
 1. 项目依赖 nodejs 环境，安装指南请参考 [Node 官网](http://nodejs.cn/);
-2. 该项目使用 yarn 包管理器管理以来，参考 [Yarn 官网](https://yarn.bootcss.com/)
+2. 该项目使用 yarn 包管理器管理依赖，参考 [Yarn 官网](https://yarn.bootcss.com/)
    安装使用;
 
 
