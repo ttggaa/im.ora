@@ -108,6 +108,7 @@ module.exports = {
     ],
 
     // articles' entry bellow
+    // 这里是文章入口
     a1_1: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -183,111 +184,7 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/articles/a3/a3_5.js'
     ],
-    // a4_1: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a4/a4_1.js'
-    // ],
-    // a4_2: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a4/a4_2.js'
-    // ],
-    // a4_3: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a4/a4_3.js'
-    // ],
-    // a4_4: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a4/a4_4.js'
-    // ],
-    // a4_5: [
-    //  require.resolve('./polyfills'),
-    //  require.resolve('react-dev-utils/webpackHotDevClient'),
-    //  paths.appSrc + '/entries/articles/a4/a4_5.js'
-    // ],
-    // a5_1: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a5/a5_1.js'
-    // ],
-    // a5_2: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a5/a5_2.js'
-    // ],
-    // a5_3: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a5/a5_3.js'
-    // ],
-    // a5_4: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a5/a5_4.js'
-    // ],
-    // a5_5: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a5/a5_5.js'
-    // ],
-    // a6_1: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a6/a6_1.js'
-    // ],
-    // a6_2: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a6/a6_2.js'
-    // ],
-    // a6_3: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a6/a6_3.js'
-    // ],
-    // a6_4: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a6/a6_4.js'
-    // ],
-    // a6_5: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a6/a6_5.js'
-    // ],
-    // a7_1: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a7/a7_1.js'
-    // ],
-    // a7_2: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a7/a7_2.js'
-    // ],
-    // a7_3: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a7/a7_3.js'
-    // ],
-    // a7_4: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a7/a7_4.js'
-    // ],
-    // a7_5: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/articles/a7/a7_5.js'
-    // ],
-    // help: [  // 免费咨询
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/help.js'
-    // ]
+
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -591,7 +488,7 @@ module.exports = {
     new HtmlWebpackPlugin({  // 文章 - a2_4
       ...htmlWebpackPluginOptions,
       chunks: ['a2_4'],
-      title: '普通白领男 逆袭法国留学白富美 | 橘子情感',
+      title: '情商低被拉黑分手，真实案例教你如何逆袭挽回爱情 | 橘子情感',
       filename: 'articles/a2/a2_4/index.html'
     }),
     new HtmlWebpackPlugin({  // 文章 - a2_5
@@ -623,7 +520,7 @@ module.exports = {
     new HtmlWebpackPlugin({  // 文章 - a3_4
       ...htmlWebpackPluginOptions,
       chunks: ['a3_4'],
-      title: '坏男人教你：没有追不到的女生，只有不会聊天的愣头青 | 橘子情感',
+      title: '警惕婚姻中的几大离婚前兆，解决情感危机 | 橘子情感',
       filename: 'articles/a3/a3_4/index.html'
     }),
     new HtmlWebpackPlugin({  // 文章 - a3_5
@@ -633,140 +530,8 @@ module.exports = {
       filename: 'articles/a3/a3_5/index.html'
     }),
 
-    // articles bellow - a4
-    // new HtmlWebpackPlugin({  // 文章 - a4_1
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a4_1'],
-    //   title: '：文章标题 | 小鹿情感',
-    //   filename: 'articles/a4/a4_1/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a4_2
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a4_2'],
-    //   title: '：文章标题 | 小鹿情感',
-    //   filename: 'articles/a4/a4_2/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a4_3
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a4_3'],
-    //   title: '：文章标题 | 小鹿情感',
-    //   filename: 'articles/a4/a4_3/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a4_4
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a4_4'],
-    //   title: '：文章标题 | 小鹿情感',
-    //   filename: 'articles/a4/a4_4/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a4_5
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a4_5'],
-    //   title: '：文章标题 | 小鹿情感',
-    //   filename: 'articles/a4/a4_5/index.html'
-    // }),
 
-    // articles bellow - a5
-    // new HtmlWebpackPlugin({  // 文章 - a5_1
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a5_1'],
-    //   title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
-    //   filename: 'articles/a5/a5_1/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a5_2
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a5_2'],
-    //   title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
-    //   filename: 'articles/a5/a5_2/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a5_3
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a5_3'],
-    //   title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
-    //   filename: 'articles/a5/a5_3/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a5_4
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a5_4'],
-    //   title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
-    //   filename: 'articles/a5/a5_4/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a5_5
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a5_5'],
-    //   title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
-    //   filename: 'articles/a5/a5_5/index.html'
-    // }),
 
-    // articles bellow - a6
-    // new HtmlWebpackPlugin({  // 文章 - a6_1
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a6_1'],
-    //   title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
-    //   filename: 'articles/a6/a6_1/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a6_2
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a6_2'],
-    //   title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
-    //   filename: 'articles/a6/a6_2/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a6_3
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a6_3'],
-    //   title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
-    //   filename: 'articles/a6/a6_3/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a6_4
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a6_4'],
-    //   title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
-    //   filename: 'articles/a6/a6_4/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a6_5
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a6_5'],
-    //   title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
-    //   filename: 'articles/a6/a6_5/index.html'
-    // }),
-
-    // articles bellow - a7
-    // new HtmlWebpackPlugin({  // 文章 - a7_1
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a7_1'],
-    //   title: '冷战，只会让矛盾长期积压 | 小鹿情感',
-    //   filename: 'articles/a7/a7_1/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a7_2
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a7_2'],
-    //   title: '小矛盾堆积成大问题，分手来的猝不及防 | 小鹿情感',
-    //   filename: 'articles/a7/a7_2/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a7_3
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a7_3'],
-    //   title: '“破窗效应”告诉你：小事背后隐藏分手本质 | 小鹿情感',
-    //   filename: 'articles/a7/a7_3/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a7_4
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a7_4'],
-    //   title: '小矛盾膨胀激化，最终引发分手，你做错了什么？ | 小鹿情感',
-    //   filename: 'articles/a7/a7_4/index.html'
-    // }),
-    // new HtmlWebpackPlugin({  // 文章 - a7_5
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['a7_5'],
-    //   title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
-    //   filename: 'articles/a7/a7_5/index.html'
-    // }),
-    //
-    // new HtmlWebpackPlugin({  // 免费咨询
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['help'],
-    //   title: '免费咨询 | 小鱼情感',
-    //   filename: 'help/index.html'
-    // }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
