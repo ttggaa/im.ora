@@ -93,6 +93,18 @@
   display: inline-block;
   margin: 15px 0;
 }
+@media screen and (max-width: 321px) {
+  .page01-sec02-group-item {
+    min-width: 135px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+  }
+}
 
 .page01-sec02-group:first-child .page01-sec02-group-item:first-child i {
   width: 26.5px;

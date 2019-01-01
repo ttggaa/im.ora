@@ -98,6 +98,11 @@
   font-size: 13px;
   color: #616161;
 }
+@media screen and (max-width: 321px) {
+  .page03-sec02-group-item p {
+    width: 120px;
+  }
+}
 
 /* 成功案例 */
 .page03-sec03-content {

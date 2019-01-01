@@ -24,6 +24,13 @@
   padding: 0 15px;
 }
 
+@media screen and (max-width: 321px) {
+  .page08-banner .text p {
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 23px;
+  }
+}
 /* 模块一 */
 .page08-sec01 {
   background: transparent;
