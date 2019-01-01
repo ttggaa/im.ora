@@ -1,0 +1,20 @@
+.wechatModel{
+  background: url('./images/wechat.png');
+  width: 300px;
+  height: 400px;
+  position: fixed;
+  top: 20%;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+.wechatModel i{
+  float: right;
+  display: inline-block;
+  border: 1px #000 solid;
+  width: 20px;
+  background: url('./images/checkout.png') ;
+}
+.hidden{
+  display: none;
+}

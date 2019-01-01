@@ -12,7 +12,7 @@ const Footer = () => (
     <div className="footer-logo">
       <img src={logoImage} alt="橘子情感 LOGO" />
     </div>
-    <p className="footer-company text-center">青岛橘子创想文化传播邮箱公司</p>
+    <p className="footer-company text-center">青岛橘子创想文化传播有限公司</p>
     <p className="footer-address text-center">地址: 青岛市市南区银川西路动漫产业园A做212B</p>
     <p className="footer-mark text-center">备案号: 鲁 ICP 备 17023741 号</p>
   </div>

@@ -22,10 +22,36 @@
   top: 215px;
   padding: 0 25px;
 }
-
-.index-intro p:first-child {
-}
-
 .index-intro p:last-child {
   top: 370px;
+}
+
+@media screen and (max-width: 321px) {
+  .index-intro p{
+    padding: 0 20px;
+    line-height: 18px;
+    top: 200px;
+  }
+
+  .index-intro p:last-child {
+    top: 330px;
+  }
+}
+@media screen and (min-width: 413px) {
+  .index-intro p{
+    top: 250px;
+  }
+  .index-intro p:last-child {
+    top: 400px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .index-intro p{
+    font-size: 18px;
+    padding: 0 50px;
+    top: 450px;
+  }
+  .index-intro p:last-child {
+    top: 700px;
+  }
 }

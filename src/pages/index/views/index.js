@@ -6,6 +6,7 @@ import {view as Footer} from '../../../components/footer/';
 import {view as Banner} from './banner/';
 import {view as Classifies} from './classifies/';
 import {view as Section} from './section/';
+import {view as Wechat} from './wechat/';
 
 import toPc from '../../../utilities/toPc';
 
@@ -55,6 +56,7 @@ class Index extends React.Component {
 	    );
 	  })
 	}
+	<Wechat />
 	<Footer />
       </div>
     );
